@@ -1,0 +1,431 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+ div {
+	 color:#60C;
+	}
+</style>
+<title>tercera Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/29.jpg','imagenes/31.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1><i>contaminacion</i></h1>
+      </div>
+      <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+        
+           
+          </div>
+          </div>
+          
+<div>
+    <ul id="lista" data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>¿que es la contaminacion?</h2>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>causas de la contaminacion</h2>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>consecuencias de la contaminacion</h2>
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>medidas de prevencion para la contaminacion</h2>
+         </a>
+         </li> 
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>tipos de contaminacion</h2>
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>contaminacion en tu comunidad</h2>
+         </a>
+         </li>
+         
+       </ul>
+</div>
+<div data-role="footer" align="center" data-theme="b">
+   <div>
+      <h4>Aplicacion tres</h4>
+      <center><img src="imagenes/icono.png"></center>
+      <h4>lopez flores oscar</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>¿que es la contaminacion?</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+        <p>
+        La Contaminación se denomina a la presencia en el ambiente de cualquier agente químico, físico o biológico nocivos para la salud o el bienestar de la población, de la vida animal o vegetal.
+
+Esta degradación del medio ambiente por un contaminante externo puede provocar daños en la vida cotidiana del ser humano y alterar las condiciones de supervivencia de la flora y la fauna.
+
+Alrededor de 2 millones de personas podrían morir cada año por alguna causa atribuible a la contaminación atmosférica, asegura la Organización Mundial de la Salud. Según este estudio la mayor cantidad de muertes se producen en los países en desarrollo donde se concentran  altas densidades de partículas nocivas para la salud.
+
+La población humana crece según una progresión geométrica y la demanda de alimentos y necesidades básicas para la vida del hombre son cada vez mayores. El aumento en el consumo de diversos productos y desechos, provocados por  el ser humano, trae como consecuencia la generación de sustancias tóxicas.
+
+Este desarrollo indiscriminado ha alterado la Tierra:</p>
+<br>
+       <img src="imagenes/1.jpg" width="225" height="225">
+        </p>
+        </div>
+        </div>
+        <div data-role="footer" data-theme="b">
+          <h4>Aplicacion tres</h4>
+      <center><img src="imagenes/icono.png"></center>
+      <h4>lopez flores oscar</h4>
+        </div>
+     </div>
+     </div>  
+     
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>causas de la contaminacion</h1>
+   </div>
+   <div data-role="content" align="center">
+      <div>
+       <p>1.-  El tráfico rodado: los coches y camiones son los mayores contaminantes urbanos porque a diario circulan arrojando al aire gases tóxicos perjudiciales para la salud. Estos vehículos contaminan a causa de la combustión de los hidrocarburos que utilizan para moverse, y el desgaste de los frenos y  ruedas.
+       <br>
+       <img src="imagenes/2.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+2.-En las ciudades existe otra fuente de contaminación como son las construcciones y las demoliciones: estas actividades desprenden polvos y gases que dañan el aire de la zona en que se desarrollan,  y  a su vez contaminan el agua donde arrojan sus desechos.
+ <br>
+ <img src="imagenes/3.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+3.-   Los Combustibles fósiles: el confort  y el bienestar de los habitantes de las grandes ciudades trajo como consecuencia el aumento en el consumo de combustibles fósiles. La producción de carbón, de petróleo y de gas natural crece de la mano del ascenso de los niveles de contaminación del aire, del suelo y del agua del planeta.
+<br>
+  <img src="imagenes/4.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+4.- El índice de población mundial ha crecido a distinto ritmo que la tasa de mortalidad, hecho que ha impactado sobre el medioambiente: provocando la ineficiencia en el tratamiento de las aguas residuales domésticas, el aumento del consumo irreflexivo  y la generación de toneladas de basura.
+ <br>
+ <img src="imagenes/5.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+5.- El progreso tecnológico beneficia a nivel económico y social,  pero la proliferación de industrias y la falta de control ambiental en sus procesos, ha perjudicado el ecosistema por la gran cantidad de residuos arrojados al aire, en ríos y mares.
+ <br>
+ <img src="imagenes/6.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+5.- La deforestación: la tala indiscriminada en bosques y selvas impide que los árboles, encargados de purificar el aire, realicen esta tarea y que miles de animales y plantas se extingan por no tener un lugar donde vivir y crecer.
+ <br>
+ <img src="imagenes/7.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+6.-   Los pesticidas y los productos químicos utilizados en los cultivos llegan a  contaminar el suelo y el agua de la zona en que se sembró. Llegando incluso a contaminar, de forma alarmante, a muchos alimentos.
+<br>
+ <img src="imagenes/8.jpg" width="225" height="225">
+ </p>
+      </div>
+      </div>
+      <div data-role="footer" data-theme="b">
+         <h4>Aplicacion tres</h4>
+      <center><img src="imagenes/icono.png"></center>	
+      <h4>lopez flores oscar</h4>
+      </div>
+     </div>
+</div> 
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>consecuencias</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <p>
+       Problemas para la salud: la contaminación hace que las personas estemos cada vez más expuestas a padecer problemas cardiovasculares, con el grave peligro que esto entraña para nuestra salud y vida.<br>
+   <img src="imagenes/9.jpg" width="225" height="225">     
+</p>
+<br>
+<p>
+Debilitamiento de la capa de ozono: la capa de ozono es la que nos protege de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta capa. la consecuencia de este debilitamiento es que cada vez nos protege menos y, por ende, cada vez tenemos una mayor temperatura en el planeta. Esto no solo hace que cada vez haya más zonas desiertas en las que es imposible vivir, sino que también hace que el hielo en los polos se deshaga y mueran muchas especies por ello. No hace falta mencionar que esto hace subir indudablemente el nivel del mar y que, de seguir así, muchas ciudades costeras se verán arrasadas, quedándose sin playas y sin zona costera.
+<br>
+  <img src="imagenes/10.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+La contaminación afecta al suelo y al agua: la contaminación al medio ambiente afecta al agua y al suelo, lo que hace que cada vez haya más especies en peligro de extinción. El agua no es potable en una gran cantidad de sitios y el suelo para la siembre no tiene los nutrientes necesarios, lo que hace que cada vez se pueda cultivar menos y que el número de cosechas para nuestro sustento sea cada vez menor.
+<br>
+ <img src="imagenes/11.jpg" width="225" height="225">
+</p>
+<br>
+<p>
+La contaminación afecta al clima: seguro que ya te has dado cuenta que los inviernos pueden ser mucho más fríos o que los veranos son mucho más calurosos, a la vez que seguro te has dado cuenta que las estaciones como el invierno y el verano pueden ser más largas y que las de temperaturas medias, son cada vez más cortas. Todos estos cambios y los fenómenos que no se habían visto desde  hace mucho tiempo o incluso nunca se habían visto son causados por la contaminación.
+<br>
+ <img src="imagenes/12.jpg" width="225" height="225">
+       </p>
+    </div>
+    </div>
+  <div data-role="footer" data-theme="b">
+      <h4>Aplicacion tres</h4>
+      <center><img src="imagenes/icono.png"></center>
+      <h4>lopez flores oscar</h4>
+      </div>
+    </div>
+   </div>
+</div> 
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>medidas preventivas de la contaminacion</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <h2>No quemar ni talar plantas</h2>
+       <img src="imagenes/13.jpg" width="225" height="225">
+<h2>Controlar el uso de fertilizantes y pesticidas</h2>
+<br>
+<img src="imagenes/14.jpg" width="225" height="225">
+<br>
+<h2>No botar basura en lugares inapropiados</h2>
+<br>
+<img src="imagenes/15.jpg" width="225" height="225">
+<br>
+<h2>Regular el servicio de aseo urbano</h2>
+<br>
+<img src="imagenes/16.jpg" width="225" height="225">
+<br>
+<h2>Crear conciencia ciudadana</h2>
+<br>
+<img src="imagenes/17.jpg" width="225" height="225">
+<br>
+<h2>Crear vías de desagües para las industrias que no lleguen a los mares ni ríos <h2>utilizados para el servicio o consumo del hombre ni animales
+<br>
+<img src="imagenes/18.jpg" width="225" height="225">
+<br>
+<h2>Controlar los derramamientos accidentales de petróleo</h2>
+<br>
+<img src="imagenes/19.jpg" width="225" height="225">
+<br>
+<h2>Controlar los relaves mineros</h2>
+<br>
+<img src="imagenes/20.jpg" width="225" height="225">
+<br>
+    </div>
+   </div>
+  <div data-role="footer" data-theme="b">
+     <h4>Aplicacion tres</h4>
+      <center><img src="imagenes/icono.png"></center>
+      <h4>lopez flores oscar</h4>
+    </div>
+   </div>
+</div>                                                        
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>tipos de contaminacion</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <h2> Contaminación del Agua</h2>
+<p>Como su nombre lo sugiere, “Contaminación del agua” es el tipo de contaminación que supone la contaminación distintos cuerpos de agua. Varias criaturas acuáticas dependen de estos cuerpos de agua y sus características naturales nutritivos para apoyar su vida.
+Contaminación del Agua</p>
+<h3>¿Qué causa la contaminación del agua?</h3>
+<p>
+Los residuos industriales se vierten en estos cuerpos de agua. Esto provoca un desequilibrio químico en el agua que conduce a la muerte de los seres acuáticos.
+Insecticidas, pesticidas y productos químicos de maduración que se utilizan en las plantas que se usan en el sistema de aguas subterráneas o arroyos cercanos.
+Lavar la ropa cerca de lagos y ríos detergentes causa una enfermedad llamada “eutrofización”, que bloquea la luz del sol entre en el interior y reduce los valores de oxígeno en el agua, causando un ambiente inhabitable.
+Derrames de petróleo’ son causados ​​cuando los buques petroleros gigantes y plataformas petrolíferas que están presentes en los océanos están dañadas por cualquiera tipo de error humano o natural causando un daño a largo tiempo para el océano. Como el petróleo es más ligero que el agua, flota sobre el agua formando una capa de bloqueo del luz del sol.
+Ciertos desastres naturales como las inundaciones repentinas y los huracanes causan la entremezcla de agua con sustancias nocivas en la tierra.</p>
+<br>
+<img src="imagenes/21.jpg" width="225" height="225">
+<br>
+<h2>Contaminación Acustica</h2>
+<p>Definición Contaminación Acustica Molesto / desagradable Fuerte Distracción / Intrusa El ruido es en realidad una palabra latina que le da el significado? Mareo?. Más comúnmente, se puede afirmar que la sensación de molestia, desagrado o molestia. No es muy fácil de definir la definición de la contaminación acústica. Esencialmente.</p>
+<h2>Causas de contaminación acústica y los efectos de la contaminación acústica</h2>
+<p>
+En nuestro día a día la vida de la contaminación acústica está aumentando rápidamente y se vuelve a creeer como una de las amenazas graves en algunas zonas. La contaminación acústica se convierte en una tensión total a tantos animales que también crean muchos problemas en la relación presa / depredador y detección. También conduce a varios problemas de reproducción diferentes. Ruidos muy graves puede deducir En problemas para los hábitats de uso de algunas criaturas sensibles del sonido, y finalmente el resultado es el agotamiento de especies raras. Específicamente aquellos cuyas sentido del oído es muy agudo, como las ballenas y los delfines. Todos los científicos están de acuerdo el hecho de que los delfines y las ballenas están cometiendo suicidios masivos sólo cuando llegan a la orilla del mar, observando las señales equivocadas.
+Efectos de la contaminación acústica están dando a los impactos negativos de tantos en la salud humana. La exposición al ruido conducirá a la agresión, pérdida auditiva, estrés, trastornos del sueño y muchos problemas más psicológicos. Los investigadores han demostrado que muchas personas que pueden permitirse un nuevo hogar han comenzado a comprar casas en áreas donde el disturbio de ruido es muy bajo.</p>
+<br>
+<img src="imagenes/22.jpg" width="225" height="225">
+<br>
+<h2>Contaminación Lumínica</h2>
+<p>La luz artificial se está convirtiendo en un peligro para nuestra planeta. Esta no sólo afecta a la belleza natural, sino a seres humanos, los animales, las aves y la vegetación. Por lo tanto, el ciclo de vida de los seres vivos también está siendo afectada por la contaminación lumínica.</p>
+<h2>¿Qué es la contaminación lumínica?</h2>
+<p>De acuerdo con el Servicio de Parques Nacionales, a la luz de los Estados Unidos por encima de lo que se requiere es llamada contaminación lumínica. La Asociación Internacional Cielo Oscuro define la contaminación lumínica a los efectos nocivos de la luz artificial en la atmósfera de la Tierra y el medio ambiente.</p>
+<br>
+<img src="imagenes/23.jpg" width="225" height="225">
+<br>
+<h2>Contaminación Térmica</h2>
+<p>Es un hecho bien conocido que la quema de combustibles fósiles en centrales eléctricas, hornos industriales y motores de vehículos causa la contaminación del aire. Sin embargo, un menor impacto conocido asociado con estos procesos de generación de energía es la contaminación térmica.</p>
+<h3>Las causas de la contaminación térmica</h3>
+<p>De vehículos de motor a la mayoría de la electricidad producida en las centrales eléctricas, la forma primaria de energía involucrada es el calor. El dispositivo que convierte el calor en otras formas útiles de energía se llama un motor térmico. Un ejemplo común de un motor de calor es un motor de coche en el que se libera la energía térmica de la combustión de aceite de convertir en energía mecánica o movimiento.
+Como cualquier proceso del mundo real, la combustión de los combustibles y posterior conversión del calor en otras formas de energía son imperfectos. La ineficiencia inherente a los procesos de conversión de energía resulta en pérdidas de calor hacia el medio ambiente. La adición de calor al medio ambiente constituye una amenaza grave para las personas, los animales y las plantas.</p>
+<br>
+<img src="imagenes/24.jpg" width="225" height="225">
+<br>
+<h2>La contaminación radiactiva</h2>
+<p>Los desechos radiactivos son residuos que contienen material radiactivo. Los desechos radiactivos son generalmente subproductos de la generación de energía nuclear y otras aplicaciones de la fisión nuclear o tecnología nuclear, como la investigación y la medicina. Los residuos radiactivos son peligrosos para la salud humana y el medio ambiente, y está regulado por las agencias gubernamentales con el fin de proteger la salud humana y el medio ambiente.
+</p>
+<h3>causas de la contaminacion radiactiva</h3>
+<p>Las siguientes son las principales fuentes de donde la mayoría de los residuos radiactivos se generan y es responsable de causar la contaminación radiactiva:
+La producción de combustible nuclear
+Reactores nucleares de potencia
+El uso de radionucleidos en las industrias para diversas aplicaciones
+Los ensayos nucleares llevados a cabo por personal de la defensa
+La eliminación de los residuos nucleares
+MINERÍA DEL URANIO</p>
+<br>
+<img src="imagenes/26.jpg" width="225" height="225">
+<br>
+<h2>contaminacion del suelo</h2>
+<p>La contaminación del suelo se refiere a la contaminación del suelo por medio de exceso de fertilizantes, productos químicos, insecticidas, herbicidas, pesticidas, etc provocan contaminación del suelo en la disminución de la calidad del suelo y es causada por la erosión del suelo, el exceso o déficit de humedad, disminución de la nutrientes para las plantas o microorganismos del suelo, y la fluctuación de la temperatura alta.
+
+La contaminación del suelo, en cierto modo, también conduce a la contaminación del aire y la contaminación del agua. La contaminación del suelo conduce naturalmente a la contaminación del aire por la liberación de estos compuestos en la atmósfera y que puedan explotar. La contaminación del suelo también contribuye a la contaminación del agua si las sustancias venenosas filtran a las aguas subterráneas, o si llega a desbordarse contaminado ríos, lagos u océanos.</p>
+<h3>Causas de la Contaminación del Suelo</h3>
+<p>Hay varias causas que conducen a la contaminación del suelo. Las principales fuentes de contaminación del suelo incluyen – la deforestación, los incendios forestales, la erosión del suelo, la erupción volcánica, el uso excesivo de fertilizantes químicos, pesticidas, herbicidas, etc, y el vertido de residuos industriales y urbanos.</p>
+<br>
+<img src="imagenes/27.jpg" width="225" height="225">
+<br>
+<h2> la Contaminación del Aire</h2>
+<p>
+El monóxido de carbono y óxido de azufre se consideran contaminantes primarios. Estos contaminantes sufren cambios químicos y causan efectos secundarios tales como smog. La contaminación del aire se define por la existencia y la integración de los compuestos tóxicos en el ambiente en concentraciones lo suficientemente altas como para causar daño a los seres humanos, los animales y el medio ambiente de la Tierra.</p>
+<h3>¿Qué causa la contaminación del aire?</h3>
+<p>La quema de combustibles fósiles emite monóxido de carbono y óxido de azufre. Automóviles, autobuses, aviones y cualquier forma de gas como combustible de transporte emiten gases de monóxido de carbono a través de sistemas de escape. El dióxido de azufre se crea a través de la combustión de carbón, y está asociado con los residuos industriales. Los procesos de fabricación utilizan carbón como combustible, liberando dióxido de azufre en el aire a través de los sistemas de escape de fábrica.</p>
+<br>
+<img src="imagenes/28.jpg" width="225" height="225">
+<br>
+    </div>
+   </div>
+  <div data-role="footer" data-theme="b">
+     <h4>Aplicacion tres</h4>
+      <center><img src="imagenes/icono.png"></center>
+      <h4>lopez flores oscar</h4>
+    </div>
+   </div>
+</div>    
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>contaminacion en tu comunidad</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <p>Este lugar aun siendo llamado como el lugar con “el mejor clima del mundo” y con la gran actividad de agriculturaque se da ahí es un lugar muy contaminado para solo tener una población de 130 mil habitantes, ya que tiene una contaminación equivalente a la de una ciudad con 300 milhabitantes lo cual es preocupante. Las aguas que utilizan están contaminadas y su calidad es pésima, también llamadas como “aguas residuales” las cuales se usan desde1886 con las que riegan la cosecha lo cual nos afecta a los humanos en gran manera y a la comunidad en general, plantas, animales, etc. 
+Causando cada vez másenfermedades éste tipo de método de riego no cambia y nadie hace nada por tratar de arreglarlo.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/29.jpg',1)"><img src="imagenes/atlixco.jpg"width="225" height="225" id="Image35"></a><br>
+<p>el primer cuadro del municipio de Atlixco manifiesta una contaminación similar a la de la ciudad de Puebla, con un índice de contaminación del 23 por ciento permanente, lo cual corresponde a estándares de una población de más de 300 mil habitantes, cuando la ciudad atlixquense cuenta con alrededor de 120 mil habitantes.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/31.jpg',1)"><img src="imagenes/atlixco.jpg" width="225" height="225" id="Image36"></a><br>
+
+<br>
+<p>El presidente del Consejo Municipal de Medio Ambiente, Jorge Osuna, dio a conocer que las cifras anteriores corresponden a un monitoreo realizado por una estación ambiental en el Centro Histórico de Atlixco.
+Comentó que es preocupante la aparición de partículas negativas que flotan en el aire del primer cuadro de la ciudad y que la cifra sea elevada en forma continua.
+<br>
+Osuna detalló que los principales factores que contribuyen a la alta contaminación en el centro urbano se deben a los automóviles y el transporte público en general.</p>
+<p>El aire contaminado contiene gases, polvos, olores y humos en grandes cantidades que dañan la salud de las personas, animales y plantas. Además, la contaminación ambiental puede deteriorar  la infraestructura urbana, incluso pueden existir componentes que al unirse con otros pueden alcanzar un mayor grado de toxicidad y generar graves problemas de salud.</p>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/39.jpg',0)"><img src="imagenes/atlixco.jpg" width="225" height="225" id="Image44"></a></p>
+<br>
+<br>
+<div data-role="collapsible" data-content-theme="false">
+          <h1>ver mas imagenes de contaminacion</h1>
+          <!-- Start WOWSlider.com -->
+<iframe src="visor/indexvisor.html" style="width:300px;height:220px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+           </div>
+          <br>
+          <br>
+    <h2>como solucionar el problema de ontaminacion</h2>
+    <h3>1.- Cambia de Luz</h3> 
+<p>Si cambias una bombilla normal por una compacta fluorescente ahorrarás 400 kilos de dióxido de carbono al año. </p>
+<br>
+<img src="imagenes/32.jpg" width="225" height="225">
+<br>
+<h3>2.- Conduce menos</h3> 
+<p>Camina, muévete en bici, comparte el auto, o utiliza el transporte público más a menudo. Ahorrarás 1.5 Kg de dióxido de carbono por cada 5 kilómetros que hagas sin conducir. </p>
+<br>
+<img src="imagenes/33.jpg" width="225" height="225">
+<br>
+<h3>3.- Recicla más</h3> 
+<p>Puedes ahorrar 1.000 kilos de dióxido de carbono al año con solo reciclar la mitad de tu basura.</p> 
+<br>
+<img src="imagenes/34.jpg" width="225" height="225">
+<br>
+<h3>4.- Evita comprar productos con mucho envoltorio</h3> 
+<p>Puedes ahorrar 545 kilos de dióxido de carbono si reduces tu basura en un 10%.</p> 
+<br>
+<img src="imagenes/35.jpg" width="225" height="225">
+<br>
+<h3>5.- Planta un árbol</h3>
+<p>Un sólo árbol absorve una tonelada de dióxido de carbono a lo largo de su vida.</p> 
+<br>
+<img src="imagenes/36.jpg" width="225" height="225">
+<br>
+<h3>6.- Apaga los aparatos electrónicos que no estés utilizando</h3> 
+<p>Sólo con apagar la TV, el DVD, el Equipo de Música y el PC cuando no los estés utilizando, ahorrarás miles de kilos de dióxido de carbono al año. </p>
+<br>
+<img src="imagenes/37.jpg" width="225" height="225">
+<br>
+<h3>7.- Conviértete en parte de la solución</h3> 
+<p>Difunde el mensaje. Dile a tus amigos que vean este trailer de "Una verdad incómoda"</p>
+<br>
+<img src="imagenes/38.jpg" width="225" height="225">
+<br>
+    </div>
+   </div>
+  <div data-role="footer" data-theme="b">
+     <h4>Aplicacion tres</h4>
+      <center><img src="imagenes/icono.png"></center>
+      <h4>lopez flores oscar</h4>
+    </div>
+   </div>
+</div>    
+</body>
+</html>
